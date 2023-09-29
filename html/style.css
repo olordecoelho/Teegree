@@ -1,0 +1,69 @@
+/* Estilos para o contêiner principal */
+#Main {
+  width: 90%;
+  max-width: 600px; /* Defina a largura máxima desejada */
+  background-color: #726262;
+  background-repeat: no-repeat;
+  background-size: 200px; 
+  border-radius: 30px;
+  padding: 20px; /* Adicione espaçamento interno para o conteúdo dentro do contêiner */
+  margin: 0 auto;
+  box-sizing: border-box; /* Garante que a largura total inclua preenchimento e borda */
+}
+
+/* Estilos para tornar o conteúdo dentro do #Main responsivo */
+#AccessPort, #Chat, #mess {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: rgba(94, 86, 86, 0.39); /* Um fundo semi-transparente para legibilidade */
+  border-radius: 10px;
+}
+
+/* Estilos para o título */
+#Title {
+  text-align: center;
+}
+
+/* Estilos para os campos de entrada */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Estilos para o botão */
+.Button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para a área de chat e mensagens */
+#Chat .Message {
+  margin: 5px 0;
+}
+
+/* Estilos para a mensagem composta e botão de envio */
+#ComposedMessage {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#SendMessage {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
